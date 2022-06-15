@@ -1,6 +1,6 @@
 <template>
   <div>
-    Main
+    <i class="fa-regular fa-star"></i>
     <SearchBar @search="searching" />
     <MyCard v-for="(item, i) in series" :key="i" :infoFilm="item" />
   </div>
